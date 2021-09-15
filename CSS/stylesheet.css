@@ -59,7 +59,7 @@ label{
 .inf{
     background-color: bisque;
     padding: 3px 10px 0px 10px;
-    width: 100%;
+    width: 1000px;
     height: 70px;
     position: absolute;
     left: 230px;
@@ -86,5 +86,12 @@ label{
     left: 550px;
     top: 0px;
     border-radius: 15px;
+}
+
+.fotoperfil{
+    position: absolute;
+    left: 950px;
+    top: 0px;
+    border-radius: 100px;
 }
 

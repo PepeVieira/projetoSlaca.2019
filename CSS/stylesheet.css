@@ -2,12 +2,8 @@
                         padding: 0px;
                         margin: 0px;
                     }
-                    
-                    @media only screen and (max-device-width: 900px) {
-                        /* .menu { width:600px; } */
-                        }
 
-                    a {
+                   a {
                         text-decoration: none;
                         color: black;
                         display: block;
@@ -199,6 +195,7 @@
                     
                     .detalhes2 p {
                         font-family: Arial, Helvetica, sans-serif;
+                        font-size: 20px;
                         color: rgb(153, 153, 153);
                         position: absolute;
                         top: 125px;
@@ -354,5 +351,58 @@
                         top: 644px;
                         left: 65px;
                     }
+
+                    @media screen and (min-width: 1024px) {
+
+                        ul {
+                            list-style: none;
+                        }
+                        
+                        nav {
+                            background-color: ghostwhite;
+                            width: 230px;
+                            height: 100%;
+                            position: relative;
+                        }
+                        .lateral {
+                            position: absolute;
+                            left: 1020px;
+                            top: 95px;
+                            width: 100px;
+                        }
+                        
+                        .lateral p {
+                            color: rgb(242, 148, 0);
+                            position: absolute;
+                            left: 1px;
+                            top: 75px;
+                            width: 150%;
+                            font-size: 15px;
+                        }
+                        
+                        .detalhes {
+                            background-color: bisque;
+                            position: absolute;
+                            top: 95px;
+                            width: 260px;
+                        }
+                        
+                        .detalhes2 p {
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 20px;
+                            color: rgb(153, 153, 153);
+                            position: absolute;
+                            top: 125px;
+                            width: 260px;
+                            height: 280px;
+                            border: solid black 0.7px;
+                            overflow: scroll;
+                        }
+
+                        .botao1{
+                            width: 260px;
+                        }
+                    }
+                        
 
                     

@@ -1,97 +1,353 @@
-*{
-    padding: 0px;
-    margin: 0px;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    display: block;
-    padding: 10px 5px;
-    border: solid;
-    border-width: thin;
-    border-color: dimgray;
-}
-
-a:hover{
-    background-color: bisque;
-    border-left-style: solid;
-    border-left-color: rgb(242 148 0);
-    border-left-width: thick;
-}
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-ul{
-    list-style: none;
-}
-
-input [type="checkbox"]{
-    display: none;
-}
-
-nav{
-    background-color: ghostwhite;
-    width: 230px;
-    height: 100%;
-    position: relative;
-}
-
-h3{
-    background-image: linear-gradient(to bottom, yellow 5%, orange 50%);
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-    display: table-cell;
-    width: 230px;
-    height: 70px;
-
-}
-
-label{
-    padding: 15px;
-    position: absolute;
-    visibility: hidden;
-}
-
-.inf{
-    background-color: bisque;
-    padding: 3px 10px 0px 10px;
-    width: 1000px;
-    height: 70px;
-    position: absolute;
-    left: 230px;
-    top: 0px;
-}
-
-.bemvindo{
-    position: absolute;
-    left: 835px;
-    top: 5px; 
-}
-
-.email{
-    position: absolute;
-    left: 700px;
-    top: 35px;  
-}
-
-.lang{
-    background-color: bisque;
-    width: 95px;
-    height: 65px;
-    position: absolute;
-    left: 550px;
-    top: 0px;
-    border-radius: 15px;
-}
-
-.fotoperfil{
-    position: absolute;
-    left: 950px;
-    top: 10px;
-    border-radius: 100px;
-}
-
+                    * {
+                        padding: 0px;
+                        margin: 0px;
+                    }
+                    
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        display: block;
+                        padding: 10px 5px;
+                        border: solid;
+                        border-width: thin;
+                        border-color: dimgray;
+                    }
+                    
+                    a:hover {
+                        background-color: bisque;
+                        border-left-style: solid;
+                        border-left-color: rgb(242 148 0);
+                        border-left-width: thick;
+                    }
+                    
+                    body {
+                        min-width: 1000px;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    ul {
+                        list-style: none;
+                    }
+                    
+                    nav {
+                        background-color: ghostwhite;
+                        width: 230px;
+                        height: 100%;
+                        position: relative;
+                    }
+                    
+                    .Slaca h3 {
+                        background-image: linear-gradient(to bottom, yellow 5%, orange 50%);
+                        color: white;
+                        text-align: center;
+                        vertical-align: middle;
+                        display: table-cell;
+                        width: 230px;
+                        height: 70px;
+                    }
+                    
+                    label {
+                        padding: 15px;
+                        position: absolute;
+                        visibility: hidden;
+                    }
+                    
+                    .inf {
+                        background-color: bisque;
+                        width: 1100px;
+                        height: 70px;
+                        position: absolute;
+                        left: 230px;
+                        top: 0px;
+                    }
+                    
+                    .infh6 {
+                        position: absolute;
+                        left: 40px;
+                        top: 11px;
+                    }
+                    
+                    .infh4 {
+                        position: absolute;
+                        left: 40px;
+                        top: 25px;
+                    }
+                    
+                    .infh5 {
+                        position: absolute;
+                        left: 40px;
+                        top: 45px;
+                    }
+                    
+                    .bemvindo {
+                        position: absolute;
+                        left: 835px;
+                        top: 5px;
+                    }
+                    
+                    .email {
+                        position: absolute;
+                        left: 700px;
+                        top: 35px;
+                    }
+                    
+                    .lang {
+                        background-color: bisque;
+                        width: 95px;
+                        height: 65px;
+                        position: absolute;
+                        left: 550px;
+                        top: 0px;
+                        border-radius: 15px;
+                    }
+                    
+                    .fotoperfil {
+                        position: absolute;
+                        left: 950px;
+                        top: 10px;
+                        border-radius: 100px;
+                    }
+                    
+                    .iconecall {
+                        background-color: red;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 100px;
+                        position: absolute;
+                        left: 985px;
+                        top: 12px;
+                    }
+                    
+                    .num2 {
+                        color: white;
+                        font-style: oblique;
+                        text-align: center;
+                        vertical-align: middle;
+                        display: table-cell;
+                    }
+                    
+                    .textinitial h3 {
+                        color: rgb(242, 148, 0);
+                        position: absolute;
+                        left: 270px;
+                        top: 95px;
+                    }
+                    
+                    .video {
+                        position: absolute;
+                        left: 270px;
+                        top: 165px;
+                    }
+                    
+                    .video p {
+                        font-size: x-large;
+                        color: white;
+                        position: absolute;
+                        left: 30px;
+                        top: 35px;
+                    }
+                    
+                    .video .apresentacao {
+                        font-size: xx-large;
+                        color: white;
+                        position: absolute;
+                        left: 130px;
+                        top: 255px;
+                    }
+                    
+                    .video h5 {
+                        font-size: large;
+                        color: white;
+                        position: absolute;
+                        left: 130px;
+                        top: 295px;
+                    }
+                    
+                    .fotocientista img {
+                        position: absolute;
+                        left: 300px;
+                        top: 405px;
+                        border-radius: 100px;
+                        border-style: solid;
+                        border-color: rgb(242, 148, 0);
+                    }
+                    
+                    .lateral {
+                        position: absolute;
+                        left: 1020px;
+                        top: 95px;
+                    }
+                    
+                    .lateral p {
+                        color: rgb(242, 148, 0);
+                        position: absolute;
+                        left: 1px;
+                        top: 60px;
+                        width: 150%;
+                        font-size: 15px;
+                    }
+                    
+                    .detalhes {
+                        background-color: bisque;
+                        position: absolute;
+                        top: 95px;
+                        width: 100%;
+                    }
+                    
+                    .detalhes2 p {
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: rgb(153, 153, 153);
+                        position: absolute;
+                        top: 125px;
+                        width: 100%;
+                        border: solid black 0.7px;
+                        overflow: scroll;
+                    }
+                    
+                    .resumo {
+                        border: solid rgb(153 153 153) 0.7px;
+                        border-radius: 5px;
+                        width: 1000px;
+                        height: 480px;
+                        position: relative;
+                        left: 270px;
+                    }
+                    
+                    .resumo h3 {
+                        background-color: bisque;
+                        border-radius: 5px 5px 0px 0px;
+                        width: 960px;
+                        height: 40px;
+                        padding-left: 40px;
+                        padding-top: 10px;
+                    }
+                    
+                    .resumo p {
+                        position: absolute;
+                        left: 8px;
+                        top: 80px;
+                        width: 980px;
+                        text-align: justify;
+                        color: rgb(153 153 153);
+                    }
+                    
+                    .discussoes {
+                        border: solid rgb(153 153 153) 0.7px;
+                        border-radius: 5px;
+                        width: 1000px;
+                        height: 720px;
+                        position: relative;
+                        left: 270px;
+                    }
+                    
+                    .discussoes h3 {
+                        background-color: bisque;
+                        border-radius: 5px 5px 0px 0px;
+                        width: 960px;
+                        height: 40px;
+                        padding-left: 40px;
+                        padding-top: 10px;
+                    }
+                    
+                    .discussoes h4 {
+                        color: rgb(242, 148, 0);
+                        text-align: center;
+                        margin: 20px;
+                        font-size: large;
+                    }
+                    
+                    .discussoes .icone1 {
+                        position: absolute;
+                        left: 380px;
+                        top: 120px;
+                    }
+                    
+                    .discussoes .icone2 {
+                        position: absolute;
+                        left: 460px;
+                        top: 120px;
+                    }
+                    
+                    .discussoes .icone3 {
+                        position: absolute;
+                        left: 540px;
+                        top: 120px;
+                    }
+                    
+                    .discussoes .sabia {
+                        color: rgb(153 153 153);
+                        text-align: center;
+                        margin: 100px;
+                    }
+                    
+                    .discussoes .topico {
+                        border-color: white;
+                        position: absolute;
+                        left: 430px;
+                        top: 270px;
+                    }
+                    
+                    #trocaideias {
+                        border: solid rgb(153 153 153) 0.7px;
+                        border-radius: 10px;
+                        width: 990px;
+                        height: 140px;
+                        margin-left: 2.5px;
+                    }
+                    
+                    #trocaideias h3 {
+                        color: rgb(242, 148, 0);
+                        background-color: white;
+                        border-radius: 10px;
+                        width: 950px;
+                    }
+                    
+                    #trocaideias p {
+                        color: rgb(153, 153, 153);
+                        margin-left: 40px;
+                    }
+                    
+                    #trocaideias h5 {
+                        margin-left: 40px;
+                        margin-top: -10px;
+                    }
+                    
+                    .trespontos1 {
+                        position: absolute;
+                        left: 40px;
+                        margin-top: 5px;
+                        border: white;
+                    }
+                    
+                    .trespontos3 {
+                        position: absolute;
+                        left: 40px;
+                        margin-top: 5px;
+                        border: white;
+                    }
+                    
+                    .conversa2 {
+                        position: absolute;
+                        left: 60px;
+                        margin-top: 5px;
+                        border: white;
+                    }
+                    
+                    .conversa4 {
+                        position: absolute;
+                        left: 60px;
+                        margin-top: 5px;
+                        border: white;
+                    }
+                    
+                    .like1 {
+                        position: absolute;
+                        top: 467px;
+                        left: 65px;
+                    }
+                    
+                    .like2 {
+                        position: absolute;
+                        top: 644px;
+                        left: 65px;
+                    }
